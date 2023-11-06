@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phiếu đăng ký</title>
+    <!-- import file css from style.css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="text-center text-header">Phiếu đăng ký tham gia chương trình khuyến mãi </h1>
+    <table class="table">
+        <tr>
+            <td class="one-third label-table">Họ tên</td>
+            <td class="two-third">
+                <input class="input-text height-20" size="40px" type="text" name="name" id="name">
+            </td>
+        </tr>
+        <tr class="big-row">
+            <td class="one-third label-table">Địa chỉ</td>
+            <td class="two-third">
+                <textarea class="input-address" cols="45px" rows="4px" name="address" id="address"> </textarea>
+            </td>
+        </tr>
+        <tr>
+            <td class="one-third label-table">Điện thoại </td>
+            <td class="two-third">
+                <input class="input-text height-20" size="25px" type="tel" name="phone" id="phone">
+            </td>
+        </tr>
+        <tr>
+            <td class="one-third label-table">Giới tính</td>
+            <td class="text-bold text-blue" class="two-third">
+                <input type="radio" name="gender" id="male" /> Nam
+                <input type="radio" name="gender" id="female" /> Nữ
+            </td>
+        </tr>
+        <tr>
+            <td class="one-third label-table">Nghề nghiệp</td>
+            <td class="two-third">
+                <select class="select-table-job input-text" name="job" id="job">
+                    <option value="1">Bác sĩ</option>
+                    <option value="2">Kỹ sư</option>
+                    <option value="3">Giáo viên</option>
+                    <option value="4">Khác</option>
+                </select>
+        </tr>
+        <tr class="big-row">
+            <td class="one-third label-table">Chọn sản phẩm tham gia</td>
+            <td class="two-third">
+                <select class="select-table-product input-text" name="product" id="product" multiple>
+                    <option value="1">Kem đánh răng</option>
+                    <option value="2">Bột giặt</option>
+                    <option value="3">Dầu gội đầu</option>
+                    <option value="4">Sữa tắm </option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td class="one-third label-table">
+                Số người dự đoán tham gia
+            </td>
+            <td class="two-third">
+                <input class="input-text height-20" type="number" name="number" id="number">
+            </td>
+        </tr>
+        <tr>
+            <td class="text-center" colspan="2">
+                <button class="submit-button" type="submit">
+                    Đồng ý
+                </button>
+            </td>
+        </tr>
+        <tr>
+            <td class="text-center result" colspan="2">
+                Bạn đã đăng ký thành công!!!
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
